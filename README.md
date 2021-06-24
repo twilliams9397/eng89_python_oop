@@ -1,5 +1,12 @@
 # Python OOP
+- object oriented programming
+- makes use of variable, methods and functions
+- a method is a function called within a class
 ## Four Pillars of OOP
+- Abstraction
+- Inheritance
+- Encapsulation
+- Polymorphism
 ### Functions and good practice of functions
 ```python
 # creating a function
@@ -104,3 +111,26 @@ print(requests_api.content)
 - can slice up data to get specifics
 - can check data types with `type(data)`
 - use `if` to check status code and ensure website is live before scraping any data
+
+## Four Pillars
+### Abstraction
+- coding/programming is abstracted away from the user
+- they don't need to see or know how the mechanisms work
+### Inheritance
+- create classes (child) that can inherit functions/methods from imported parent classes
+- cuts out need for repetition by inheriting data - DRY
+### Encapsulation
+- restricted areas to authorised users, used to make data NOT publicly available
+### Polymorphism
+- "many forms", classes can change to add more functionality or update/add information
+## Classes
+- parent class (e.g. animal) with variables and behaviours (functions)
+- sub classes (e.g. reptile, snake, python) will inherit everything from class above
+
+1 animal.py file for animal class
+
+2 reptile.py to abstract data and inherit from animal.py
+
+3 snake.py
+
+4 python.py and at this point we should be able to utilise inheritance from multiple classes - everything available from animal class to python
