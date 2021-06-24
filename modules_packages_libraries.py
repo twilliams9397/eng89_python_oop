@@ -34,3 +34,7 @@ import datetime, sys # sys is used to get system specific info
 
 import requests # installed via pip console method first
 
+requests_api = requests.get("https://www.bbc.co.uk/")
+print(requests_api.status_code) # 200 for success, 404 and above for fail/unavailable
+print(requests_api.headers)
+print(requests_api.content)

@@ -93,4 +93,14 @@ print(sys.path) # absolute path
 import requests # installed via pip method first
 ```
 is done after `pip install requests`
-
+- `pip -V` returns version
+```python
+requests_api = requests.get("https://www.bbc.co.uk/")
+print(requests_api.status_code) # 200 for success, 404 and above for fail/unavailable
+print(requests_api.headers)
+print(requests_api.content)
+```
+- ensure URL is exact - copy and paste
+- can slice up data to get specifics
+- can check data types with `type(data)`
+- use `if` to check status code and ensure website is live before scraping any data
