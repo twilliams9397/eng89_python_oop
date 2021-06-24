@@ -72,3 +72,25 @@ print(math.pi)
 # if specific file is imported it doesn't need to be called from class
 print(random()) # random number between 0 and 1 everytime it is run
 ```
+- imports can be used to get system and OS info, and also can be imported in groups
+```python
+import os # used to get information about your OS
+import datetime, sys # sys is used to get system specific info
+
+work_dir = os.getcwd() # provides current location/path
+print(work_dir)
+print(os.getuid()) # user id
+print(os.cpu_count()) # reads hardware info - counts CPUs of machine
+print(os.uname()) # returns username
+
+print(datetime.date.today()) # today's date
+print(sys.path) # absolute path
+```
+- requests is a package to interact with a live API - we can make an API call to any web address using python requests package
+- packages must be explicitly installed if not available by default
+- `pip install package_name` is the method in the console
+```python
+import requests # installed via pip method first
+```
+is done after `pip install requests`
+
