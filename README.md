@@ -97,7 +97,7 @@ is done after `pip install requests`
 ```python
 requests_api = requests.get("https://www.bbc.co.uk/")
 print(requests_api.status_code) # 200 for success, 404 and above for fail/unavailable
-print(requests_api.headers)
+print(requests_api.headers) # allows access to website data
 print(requests_api.content)
 ```
 - ensure URL is exact - copy and paste
