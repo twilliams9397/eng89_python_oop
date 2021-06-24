@@ -33,8 +33,6 @@ print(greeting("Tom")) # this line is calling the function for "Tom"
 def greeting(name):
     return "Welcome on board " + name + "!"
 
-user = input("What is your name?  ").capitalize() # ensures inputted name is printed with a capital
-
-print(greeting(user))
+print(greeting(input("What is your name?  ").capitalize()))
 ```
 #### DRY Don't Repeat Yourself

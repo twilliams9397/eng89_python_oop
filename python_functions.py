@@ -20,6 +20,4 @@
 def greeting(name):
     return "Welcome on board " + name + "!"
 
-user = input("What is your name?  ").capitalize()
-
-print(greeting(user))
+print(greeting(input("What is your name?  ").capitalize()))
