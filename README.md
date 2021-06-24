@@ -35,4 +35,20 @@ def greeting(name):
 
 print(greeting(input("What is your name?  ").capitalize()))
 ```
+- functions can take multiple arguments
+```python
+def add(num1, num2):
+    return num1 + num2
+
+print(add(2, 3))
+```
+- this will return `5`
+```python
+def multiply(num1, num2):
+    return num1 * num2
+    print("this is the required outcome of two numbers") # this line will not execute as it is after return statement
+    
+print(multiply(3, 5))
+```
+- this will only return `15`, any required methods must come before the return statement
 #### DRY Don't Repeat Yourself

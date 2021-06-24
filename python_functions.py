@@ -17,7 +17,21 @@
 #
 # print(greeting("Tom"))
 
-def greeting(name):
-    return "Welcome on board " + name + "!"
+# def greeting(name):
+#     return "Welcome on board " + name + "!"
+#
+# print(greeting(input("What is your name?  ").capitalize()))
 
-print(greeting(input("What is your name?  ").capitalize()))
+# functions can have multiple arguments and data types
+
+# def add(num1, num2):
+#     return num1 + num2
+#
+# print(add(2, 3))
+
+def multiply(num1, num2):
+    return num1 * num2
+    print("this is the required outcome of two numbers")  # this line will not execute as it is after return statement
+
+
+print(multiply(3, 5))
