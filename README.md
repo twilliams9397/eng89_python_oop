@@ -165,6 +165,8 @@ class Reptile(Animal): # creates Reptile as sub class of Animal - inheritance
         super().__init__() # super() is used to inherit everything from parent class
 ```
 - after `super()` line the rest of the class is defined in the same way
+
 3 snake.py
-- by inheriting the `Reptile` class, the `Animal` class is also inherited
-4 python.py and at this point we should be able to utilise inheritance from multiple classes - everything available from animal class to python
+- when Snake class inherits the `Reptile` class, the `Animal` class is also inherited
+
+4 python.py utilise inheritance from multiple classes - everything available from animal class to python
