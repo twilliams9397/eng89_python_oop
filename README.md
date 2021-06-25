@@ -140,7 +140,7 @@ class Animal: # capital letter used for classes
         self.eyes = True
         self.lungs = True
 
-    def breath(selfself):
+    def breath(self):
         return "Keep breathing to stay alive!"
 
     def eat(self):
